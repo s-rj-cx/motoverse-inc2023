@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       form {
+	        margin-top: 20px;
+	    }
+	    label {
+	        display: block;
+	        margin-bottom: 10px;
+	    }
+	    input[type="text"],
+	    textarea {
+	        width: 50%;
+	        padding: 5px;
+	        border-radius: 5px;
+	    }
+	    textarea {
+	        height: 100px;
+	    }
+	    input[type="submit"] {
+	        background-color:black;
+	        color:white;
+	        border: none;
+	        padding: 10px 20px;
+	        text-align: center;
+	        text-decoration: none;
+	        display: inline-block;
+	        font-size: 16px;
+	        margin-top: 10px;
+	        cursor: pointer;
+	    }
+        body{
+            background-color: #a1bfc9;
+        }
+        
+    </style>
+</head>
+<body>
+    <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        
+        <label for="email">Phone Number</label>
+        <input type="text" id="number" name="number" required>
+        
+        <label for="bike">Bike:</label>
+    <select id="bike" name="bike" required>
+      <option value="">Select a bike</option>
+      <option value="Meteor 350">Meteor 350</option>
+      <option value="Ninja 300">Ninja 300</option>
+      <option value="Tiger Sport 660">Tiger Sport 660</option>
+    </select><br><br>
+
+        <input type="submit" value="Submit">
+        </form>
+
+</body>
+</html>
